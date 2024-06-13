@@ -44,7 +44,7 @@ const Form = (props) => {
                     whenChanged={value => setResponsibility(value)} />
 
                 <TextField
-                    label="Imagem"
+                    label="Foto"
                     placeholder="Digite o endereço da imagem"
                     value={image}
                     whenChanged={value => setImage(value)} />
